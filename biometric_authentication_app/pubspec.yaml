@@ -1,0 +1,30 @@
+name: loginapp
+description: An application to check how to integrate biometric authentication
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: "^0.5.7"
+  local_auth: ^0.6.2+1
+  dartz: ^0.9.1
+  cupertino_icons: ^0.1.2
+  flutter_bloc: ^4.0.0
+  equatable: ^1.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^4.1.1
+  test_coverage: ^0.4.1
+
+
+
+
+flutter:
+  uses-material-design: true
